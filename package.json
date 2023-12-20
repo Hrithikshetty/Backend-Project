@@ -3,12 +3,16 @@
   "version": "1.0.0",
   "description": "Backend",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "hey"
   ],
   "author": "Hrithik Shetty",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.0.2"
+  }
 }
